@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+act_mls2024_llm API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="act_mls2024_llm",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://act_mls2024_llm.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "kazuhayase",
+        "url": "http://act_mls2024_llm.com/contact/",
+        "email": "kazuhayase@act_mls2024_llm.com",
     },
     license_info={
         "name": "The Unlicense",

@@ -5,7 +5,7 @@ from pydantic import BaseModel, Extra
 from sqlmodel import Field, Relationship, SQLModel
 
 if TYPE_CHECKING:
-    from project_name.security import User
+    from act_mls2024_llm.security import User
 
 
 class Content(SQLModel, table=True):
